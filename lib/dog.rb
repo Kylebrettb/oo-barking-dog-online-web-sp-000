@@ -2,7 +2,7 @@ class Dog
 def name
  @name
 end
-def name=(name)
+def initiative name=(name=)
   @name="Fido"
 end
 end
